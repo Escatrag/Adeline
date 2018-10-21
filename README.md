@@ -1,9 +1,9 @@
-###Projet d'intelligence artificielle avec reconaissance vocale en Francais
+### Projet d'intelligence artificielle avec reconaissance vocale en Francais
 Hey tout le monde, je poste ici un projet amélioré depuis un autre projet de GNU/LINUX Magazine.
 
 Il s'agit d'une IA en python utilisant Tensorflow, avec une reconaissance vocale ainsi qu'une réponse vocale en Francais.
 
-#Comment l'installer ?
+# Comment l'installer ?
 Ce programme ne fonctionne qu'avec python3 (idéalement la 3.5)
 Pour l'installer, il faut installer les dépendances:
 ```
@@ -24,7 +24,7 @@ Ensuite lancer chatbot.py avec
 python3 chatbot.py
 ```
 
-#Comment le configurer ?
+# Comment le configurer ?
 La configuration est très simple.
 Le fichier rules.json contient toutes les règles à traiter.
 
