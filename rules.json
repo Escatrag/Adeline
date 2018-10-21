@@ -1,0 +1,40 @@
+{
+	"rules" : [
+				{
+					"ruleName" : "salutation",
+					"patterns" : ["Salut", "Bonjour", "Hello", "Hey", "Coucou", "Yo"],
+ 					"responses" : ["Plop", "Yo", "Bonjour", "Salut", "Je suis là !"]
+				},
+				{
+					"ruleName" : "quitter",
+					"patterns" : ["Bye", "A la prochaine !", "Ciao !"],
+					"responses" : ["Au revoir !", "Bye bye !", "A la prochaine !"]
+				},
+				{
+					"ruleName" : "heure",
+					"patterns" : ["Quelle heure est-il ?", "Donne moi l'heure", "Tu peux me donner l'heure ?"],
+					"responses" : ["Il est exactement {hour} heures et {mn} minutes", "Il est {hour} heures et {mn} minutes"]
+				},
+				{
+					"ruleName" : "blague",
+					"patterns" : ["ahah", "hehe", "hoho", "hihi"],
+					"responses" : ["Je me meurs de rire", "XPTDR", "ahahahahah"]
+				},
+				{
+					"ruleName" : "nom",
+					"patterns" : ["Comment tu t'appelles ?", "Quel est ton nom ?"],
+					"responses" : ["Je m'appelle Jarvis", "Vous pouvez m'appeler Jarvis", "Jarvis pour vous servir !"]
+				},
+				{
+					"ruleName" : "lockscreen",
+					"patterns" : ["Verouille mon écran", "Peux-tu verouiller mon écran ?"],
+					"responses" : ["Bien sur boss !", "C'est fait.", "Tout de suite."]
+				},
+				{
+					"ruleName" : "Eteindre",
+					"patterns" : ["Tu peux éteindre l'ordinateur ?", "éteins l'ordinateur"],
+					"responses" : ["C'est en cours.", "Pas de souci !"]
+				}
+			],
+	"unknown" : ["Pardon ?", "Je suis désolé, je n'ai pas compris...", "Pourriez vous répeter svp ?"]
+}
