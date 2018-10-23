@@ -41,3 +41,6 @@ La ligne du dessous,
 chatbot.readRules('rules.json')
 ```
 vous permet de charger votre propre fichier json.
+
+Au premier lancement,le programme va créer des fichiers 'model.tflearn.data-00000-of-00001', 'model.tflearn.index' et 'model.tflearn.index' et 'checkpoint'.
+Il va aussi créer un dossier logs et __pycache__.
